@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "scrape-issues": "node src/issues-scraper.mjs",
+    "scrape-comments": "node src/comments-scraper.mjs",
+    "scrape-pr-files": "node src/pr-files-scraper.mjs",
+
+    "analyze-pr-merges": "node src/open-closed-merged.mjs",
+    "analyze-small-changes": "node src/find-small-changes.mjs",
+    "analyze-comments": "node src/comments-and-reactions.mjs"
+  }
+}
